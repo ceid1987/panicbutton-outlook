@@ -53,8 +53,6 @@ export function writeDataToOfficeDocument(result: Object): void {
   let data: string[] = [];
   let userProfileInfo: string[] = [];
   userProfileInfo.push(result["displayName"]);
-
-
   userProfileInfo.push(result["jobTitle"]);
   userProfileInfo.push(result["mail"]);
   userProfileInfo.push(result["mobilePhone"]);
