@@ -10,8 +10,8 @@ import { forwardAndDelete } from "../helpers/sso-helper";
 
 Office.onReady((info) => {
   if (info.host === Office.HostType.Outlook) {
-    document.getElementById("getProfileButton").onclick = run;
     document.getElementById("forwardAndDeleteButton").onclick = runForwardAndDelete;
+    document.getElementById("getProfileButton").onclick = run;
   }
 });
 

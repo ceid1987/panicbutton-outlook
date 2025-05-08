@@ -10,7 +10,7 @@ import { Configuration, LogLevel, PublicClientApplication, RedirectRequest } fro
 import { callForwardAndDelete, callGetUserData } from "./middle-tier-calls";
 import { showMessage } from "./message-helper";
 
-const clientId = "8c1733d0-baaa-44ad-83fe-82866f6a213b"; //This is your client ID
+const clientId = "9d6deaf1-aa69-4874-880e-532f2de27cb8"; //This is your client ID
 const accessScope = `api://${window.location.host}/${clientId}/access_as_user`;
 const loginRequest: RedirectRequest = {
   scopes: [accessScope],
